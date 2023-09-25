@@ -15,7 +15,7 @@ function mining(spice) {
         }
         spice-=10;
     }
-    if (spice >= 26) {
+    if (mined >= 26) {
 
         mined -=  26;
     }
