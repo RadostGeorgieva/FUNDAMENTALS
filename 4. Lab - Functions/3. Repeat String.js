@@ -1,4 +1,4 @@
-function solve(str, repetitions) {
+
 function repeatString(str, repetitions) {
     let repeatedStr = "";
     for(let i =0; i <repetitions; i++) {
@@ -6,6 +6,4 @@ function repeatString(str, repetitions) {
     }
     return repeatedStr;
 }
-console.log(repeatString(str, repetitions));
-}
-solve("abc", 3);
+repeatString("abc", 3);
