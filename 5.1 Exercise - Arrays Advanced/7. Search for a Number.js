@@ -3,7 +3,7 @@ function searchForNumber(array, numbers) {
     let newArray = array.slice(0, nToTake);
     newArray.splice(0, nToDelete);
     let occurrences = countOccurrences(newArray, nToSearch);
-    console.log(`The number ${nToSearch} appears ${occurrences} times.`);
+    console.log(`Number ${nToSearch} occurs ${occurrences} times.`);
     function countOccurrences(newArray, nToSearch) {
         return newArray.reduce(function(count, number) {
             // Check if the current number is equal to the targetNumber
