@@ -40,7 +40,7 @@ function arrayManipulator(array, commands) {
         }
     }
     function shiftArrayRight(array, positions) {
-        positions = positions % array.length;
+        //positions = positions % array.length;
         let arrayShifted = array.slice(positions).concat(array.slice(0, positions));
         array = arrayShifted
 
