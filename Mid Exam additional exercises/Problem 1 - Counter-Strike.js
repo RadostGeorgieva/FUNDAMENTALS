@@ -7,7 +7,7 @@ function counterStrike(arr) {
             console.log(`Won battles: ${battlesWon}. Energy left: ${energy}`);
             return;
         }
-        if(energy< arr[i]) {
+        if(energy< Number(arr[i])) {
             console.log(`Not enough energy! Game ends with ${battlesWon} won battles and ${energy} energy`);
             return;
         } 
