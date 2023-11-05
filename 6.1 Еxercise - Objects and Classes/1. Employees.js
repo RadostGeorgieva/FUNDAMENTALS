@@ -8,7 +8,6 @@ function solve(array){
     let employees = [];
     for(let i = 0; i < array.length; i++) {
         let employee = new Empoyee;
-       
         employee.name = (array[i]);
         employee.number = array[i].length;
         employees.push(employee);
