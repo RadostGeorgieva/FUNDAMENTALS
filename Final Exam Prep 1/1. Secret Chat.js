@@ -9,9 +9,9 @@ while(command!= "Reveal") {
     console.log(word);
    } else if(arrComand[0]== "Reverse"){
     if(word.includes(arrComand[1])){
-    let toBeReplaced = arrComand[1].split("").reverse().join("");
-    word = word.replace(arrComand[1],toBeReplaced);
-    console.log(word);
+        let toBeReplaced = arrComand[1].split("").reverse().join("");
+        word = word.replace(arrComand[1],toBeReplaced);
+        console.log(word);
     } else{
         console.log(`error`);
     }

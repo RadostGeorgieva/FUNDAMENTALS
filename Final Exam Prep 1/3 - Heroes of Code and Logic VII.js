@@ -53,7 +53,7 @@ function solve(array) {
     command = array.shift().split(" - ");
 }
 let toBePrinted = Object.entries(heroes);
-for(let [key, values] of toBePrinted) {
+for(let [key,values] of toBePrinted) {
     console.log(`${key}`);
     console.log(`  HP: ${values[0]}`);
     console.log(`  MP: ${values[1]}`);
