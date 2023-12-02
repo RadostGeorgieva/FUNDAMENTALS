@@ -19,4 +19,4 @@ function solve(array) {
 
 }
 }
-solve(['Hello|#Invalid food#19/03/20#450|$5*(@'])
+solve(['[ $$#@@%^&#Fish#24/12/20#8500#|#Incorrect#19.03.20#450|$5*(@!#IceCream#03/10/21#9000#^#@aswe|Milk|05/09/20|2000|'])

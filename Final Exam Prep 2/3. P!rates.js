@@ -35,7 +35,7 @@ while(array[0]!="End") {
 }
 let entires = Object.entries(cities);
 if(entires.length<1) {
-        console.log(`"Ahoy, Captain! All targets have been plundered and destroyed!`);
+        console.log(`Ahoy, Captain! All targets have been plundered and destroyed!`);
 } else {
    console.log(`Ahoy, Captain! There are ${entires.length} wealthy settlements to go to:`);
     for([key, value] of entires) {
